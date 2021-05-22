@@ -15,8 +15,8 @@ The haroldcoin coin is a decentralized peer-to-peer banking financial platform, 
 | Specification | Value |
 |:-----------|:-----------|
 | Block Size | `4MB` |
-| Block Time | `120s` |
-| PoW Reward | `50 HRLD` |*
+| Block Time | `600s` |
+| PoW Reward | `200 HRLD` |*
 | Masternode Requirement | `50,000 HRLD` |
 | Port | `25676` |
 | RPC Port | `25674` |
