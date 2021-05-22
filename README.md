@@ -54,7 +54,7 @@ Note that for WSL the haroldcoin Core source path MUST be somewhere in the defau
 The next three steps are an example of how to acquire the source in an appropriate way.
 
     cd /usr/src
-    sudo git clone https://github.com/haroldcoincoin/haroldcoin.git
+    sudo git clone https://github.com/Harold-Coin/haroldcoin-main-23-may.git
     sudo chmod -R a+r+w haroldcoin
     
 Once the source code is ready the build steps are below.
