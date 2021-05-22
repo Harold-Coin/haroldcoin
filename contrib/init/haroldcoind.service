@@ -1,0 +1,26 @@
+[Unit]
+Description=haroldcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=haroldcoin
+Group=haroldcoin
+
+Type=forking
+PIDFile=/var/lib/haroldcoind/haroldcoind.pid
+
+ExecStart=/usr/bin/haroldcoind -daemon -pid=/var/lib/haroldcoind/haroldcoind.pid \
+          -conf=/etc/haroldcoin/haroldcoin.conf -datadir=/var/lib/haroldcoind
+
+ExecStop=-/usr/bin/haroldcoin-cli -conf=/etc/haroldcoin/haroldcoin.conf \
+         -datadir=/var/lib/haroldcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

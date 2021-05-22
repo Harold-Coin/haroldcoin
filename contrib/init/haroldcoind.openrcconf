@@ -1,0 +1,26 @@
+# /etc/conf.d/haroldcoind: config file for /etc/init.d/haroldcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/haroldcoin/haroldcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/haroldcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/haroldcoind.pid"
+
+# Where to write haroldcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/haroldcoind"
+
+# User and group to own haroldcoind process
+#BITCOIND_USER="haroldcoin"
+#BITCOIND_GROUP="haroldcoin"
+
+# Path to haroldcoind executable
+#BITCOIND_BIN="/usr/bin/haroldcoind"
+
+# Nice value to run haroldcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

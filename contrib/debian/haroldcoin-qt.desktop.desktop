@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=haroldcoin
+Comment=haroldcoin P2P Cryptocurrency
+Exec=haroldcoin-qt %u
+Terminal=false
+Type=Application
+Icon=haroldcoin128
+MimeType=x-scheme-handler/haroldcoin;
+Categories=Office;Finance;
+Name[en_US]=haroldcoin-qt.desktop

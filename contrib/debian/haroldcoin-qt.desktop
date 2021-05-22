@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=haroldcoin
+Comment=haroldcoin P2P Cryptocurrency
+Comment[fr]=haroldcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=haroldcoin, eşten eşe kriptografik sanal para birimi
+Exec=haroldcoin-qt %u
+Terminal=false
+Type=Application
+Icon=haroldcoin128
+MimeType=x-scheme-handler/haroldcoin;
+Categories=Office;Finance;
