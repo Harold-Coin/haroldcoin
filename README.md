@@ -108,7 +108,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 1. Clone the haroldcoin source code and cd into `haroldcoin`
 
-        git clone --recursive https://github.com/haroldcoincoin/haroldcoin.git
+        git clone --recursive https://github.com/Harold-Coin/haroldcoin-main-23-may.git
         cd haroldcoin
 
 2.  Build haroldcoin Core:
