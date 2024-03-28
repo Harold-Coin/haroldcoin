@@ -1,10 +1,10 @@
 ---
-    name: Haroldcoin Build
+    name: haroldcoin Build
     on:
       push:
         branches:
           - main
-          - v69.420.1.1
+          - v69.420.1.1*
           - develop
       pull_request:
         branches:
