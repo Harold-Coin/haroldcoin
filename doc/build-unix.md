@@ -57,7 +57,7 @@ Dependency Build Instructions: Ubuntu & Debian
 ----------------------------------------------
 Build requirements:
 
-	sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev automake libevent-dev
+	sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev automake libevent-dev gperf cmake curl
 
 For Ubuntu 12.04 and later or Debian 7 and later libboost-all-dev has to be installed:
 
@@ -66,7 +66,7 @@ For Ubuntu 12.04 and later or Debian 7 and later libboost-all-dev has to be inst
  db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
  You can add the repository using the following command:
 
-        sudo add-apt-repository ppa:bitcoin/bitcoin
+        sudo add-apt-repository ppa:luke-jr/bitcoin
         sudo apt-get update
 
  Ubuntu 12.04 and later have packages for libdb5.1-dev and libdb5.1++-dev,
